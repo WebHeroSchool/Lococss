@@ -87,6 +87,7 @@ i {
   display: inline-block;
   padding: 0 52px 0 185px;
   margin-bottom: 78px;
+  max-width: 550px;
 }
 
 .wrap-img {
@@ -401,6 +402,7 @@ i {
     width: auto;
     padding: 0 52px 0 185px;
     margin-bottom: 80px;
+    max-width: 550px;
   }
 
   .wrap-coll {
