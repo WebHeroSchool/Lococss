@@ -220,7 +220,7 @@ i {
   }
 
   .header {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
 
   .logo__loco {
@@ -242,9 +242,9 @@ i {
   }
 
   .wrap-foto {
-    width: 36%;
+    /*width: 36%;*/
     padding: 0 89px 0 185px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
 
   .wrap-coll {
