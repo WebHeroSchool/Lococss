@@ -729,7 +729,7 @@ i {
 
   .wrap-coll__new {
     font-size: 49px;
-    top: 600px;
+    top: 595px;
     padding: 0 0 0 230px;
     position: relative;
   }
@@ -784,7 +784,7 @@ i {
 @media (max-width: 730px) {
   .wrap-coll__new {
     font-size: 47px;
-    top: 565px;
+    top: 560px;
     padding: 0 0 0 220px;
   }
 }
@@ -792,7 +792,7 @@ i {
 @media (max-width: 690px) {
   .wrap-coll__new {
     font-size: 45px;
-    top: 525px;
+    top: 515px;
     padding: 0 0 0 210px;
   }
 }
@@ -800,7 +800,7 @@ i {
 @media (max-width: 640px) {
   .wrap-coll__new {
     font-size: 45px;
-    top: 485px;
+    top: 475px;
     padding: 0 0 0 200px;
   }
 }
@@ -808,7 +808,7 @@ i {
 @media (max-width: 600px) {
   .wrap-coll__new {
     font-size: 43px;
-    top: 445px;
+    top: 435px;
     padding: 0 0 0 180px;
   }
 }
@@ -816,7 +816,7 @@ i {
 @media (max-width: 555px) {
   .wrap-coll__new {
     font-size: 41px;
-    top: 405px;
+    top: 395px;
     width: 100%;
     padding: 0 0 0 150px;
   }
@@ -825,7 +825,7 @@ i {
 @media (max-width: 510px) {
   .wrap-coll__new {
     font-size: 41px;
-    top: 365px;
+    top: 355px;
     width: 100%;
     padding: 0 0 0 120px;
   }
@@ -849,7 +849,7 @@ i {
 
   .wrap-coll__new {
     font-size: 39px;
-    top: 435px;
+    top: 405px;
     padding: 0 0 0 100px;
   }
 
@@ -937,7 +937,7 @@ i {
     position: fixed;
     font-size: 40px;
     line-height: 41px;
-    top: 370px;
+    top: 340px;
     padding: 0 35px;
   }
 
