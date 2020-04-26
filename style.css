@@ -242,7 +242,7 @@ i {
   display: block;
   /*position: relative;*/
   z-index: 1;
-  top: 30px;
+  top: 240px;
   left: 231px;
   position: absolute;
   /* padding-right: 66px;*/
@@ -1061,7 +1061,7 @@ i {
   }
 
   .wrapping__case {
-    top: 0px;
+    top: 200px;
     left: 181px;
   }
 
@@ -1200,8 +1200,8 @@ i {
 
   .wrapping__case {
     width: 41%;
-    top: 40px;
-    left: 141px;
+    /*top: 40px;*/
+    left: 151px;
   }
 
   .collection {
@@ -1536,7 +1536,7 @@ i {
 
   .wrapping__case {
     width: 35%;
-    top: 70px;
+    /*top: 70px;*/
   }
 
   .collection {
@@ -1783,7 +1783,7 @@ i {
 
   .wrapping__case {
     width: 35%;
-    top: 30px;
+    top: 150px;
     left: 151px;
   }
 
@@ -2391,7 +2391,7 @@ i {
 @media (max-width: 768px) {
   .home-page {
     background: none;
-    min-height: 856px;
+    min-height: auto /*856px*/;
   }
 
   .header {
@@ -2421,34 +2421,39 @@ i {
     padding: 28px 18px;
   }
 
-  .wrap-coll {
-    padding-top: 0;
+  .wrap-img {
+    display: none;
   }
 
   .wrap-foto {
     display: block;
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     padding: 0;
     margin-bottom: 0;
   }
 
-  .wrap-img {
-    display: none;
+  .wrap-coll {
+    display: inline;
+    padding-top: 0;
+    width: auto;
+    position: initial;
   }
 
   .wrap-coll__new {
+    width: 45%;
     font-size: 49px;
     top: 570px;
     padding: 0 0 0 230px;
-    position: relative;
+    position: absolute;
+    /*position: relative;*/
     margin-bottom: 0;
   }
 
   .vector {
-    display: block;
+    display: inline-block;
     width: 100%;
-    margin-left: 119px;
+    padding: 0 0 0 119px;
     cursor: pointer;
     position: relative;
     bottom: 10px;
@@ -2492,28 +2497,29 @@ i {
   }
 
   .leather-bag {
-    position: initial;
+    position: relative;
     min-height: 855px;
   }
 
   .wrapping__bag {
-    display: inline-block;
+    /*display: inline-block;*/
     width: 38%;
     padding: 55px 0 0 167px;
   }
 
   .wrapping__case {
-    display: inline-block;
+   /* display: inline-block;*/
     width: 43%;
-    top: 855px;
+    /*position: absolute;*/
+    top: 95px;
     left: 250px;
   }
 
   .collection {
     display: inline-block;
     position: inherit;
-    margin: 60px 0 0 191px;
-    width: 50%;
+    margin: 80px 0 0 141px;
+    width: 61%;
   }
 
   .collection__bag {
@@ -2605,7 +2611,7 @@ i {
   }
 
   .total-look {
-    width: 55%;
+    width: 54%;
     position: relative;
     display: inline-block;
     z-index: 1;
@@ -2617,7 +2623,7 @@ i {
 
   .total-look__serene {
     padding: 28px 3px 0 47px;
-    font-size: 35px;
+    font-size: 32px;
     margin-bottom: 14px;
   }
 
@@ -2666,20 +2672,20 @@ i {
   }
 
   .other__goods {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .developed__work {
     display: inline-block;
     position: absolute;
-    left: 72.2%;
+    left: 71.2%;
     top: auto;
   }
 
   .web {
     position: relative;
     left: 87.8%;
-    top: 95%;
+    top: 0;
   }
 }
 
@@ -2697,6 +2703,147 @@ i {
     top: 490px;
     padding: 0 0 0 210px;
   }
+
+  .leather-bag {
+    min-height: 815px;
+  }
+
+  .wrapping__bag {
+    width: 35%;
+    padding: 55px 0 0 157px;
+  }
+
+  .wrapping__case {
+    width: 40%;
+    top: 75px;
+    left: 240px;
+  }
+
+  /*.collection {
+    margin: 80px 0 0 171px;
+    width: 52%;
+  }
+
+  .collection__bag {
+    font-size: 27px;
+    padding: 20px 30px 0;
+    margin-bottom: 11px;
+  }
+
+  .collection__autumn {
+    font-size: 12px;
+    padding: 0 30px 0;
+    margin-bottom: 12px;
+  }
+
+  .collection__included {
+    font-size: 11px;
+    padding: 0 30px 0;
+  }
+
+  .price {
+    padding: 0 20px 0 10px;
+  }
+
+  .color__circle_circle-grey {
+    width: 24px;
+    height: 24px;
+    margin: 0 4px 4px 0;
+  }
+
+  .color__circle_circle-pink {
+    width: 31px;
+    height: 31px;
+    margin: 13px 5px 1px 0;
+  }
+
+  .color__circle_circle-blue {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px 4px 0;
+  }
+
+  .color__circle_circle-green {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+  }
+
+  .cost__price {
+    font-size: 27px;
+  }
+
+  .amount {
+    width: 70px;
+    height: 33px;
+    margin: 0 25px 25px 30px;
+  }
+
+  .amount__minus {
+    padding: 9px 12px;
+  }
+
+  .amount__plus {
+    padding: 9px 11px;
+  }
+
+  .add__bask {
+    font-size: 10px;
+    padding: 18px 15px 15px 15px;
+  }*/
+
+  .autumn__look {
+    width: 82%;
+  }
+
+  .total-look {
+    width: 53%;
+    left: 170px;
+  }
+
+  .total-look__serene {
+    padding: 28px 3px 0 37px;
+    font-size: 27px;
+    margin-bottom: 11px;
+  }
+
+  .total-look__autumn {
+    font-size: 12px;
+    padding: 0 3px 0 37px;
+  }
+
+  .total-look__kit {
+    padding: 0 103px 0 37px;
+    font-size: 11px;
+    margin-bottom: 33px;
+  }
+
+  .quantity {
+    width: 70px;
+    height: 33px;
+    margin: 0 24px 30px 37px;
+  }
+
+  .quantity__minus {
+    padding: 9px 12px;
+  }
+
+  .quantity__plus {
+    padding: 9px 11px;
+  }
+
+  .add__basket {
+    font-size: 10px;
+    padding: 18px 15px 15px 15px;
+  }
+
+  .developed__work {
+    left: 66.8%;
+  }
+
+  .web {
+    left: 85.8%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -2713,30 +2860,217 @@ i {
     top: 410px;
     padding: 0 0 0 180px;
   }
+
+  .leather-bag {
+    min-height: 680px;
+  }
+
+  .wrapping__bag {
+    width: 33%;
+    padding: 55px 0 0 147px;
+  }
+
+  .wrapping__case {
+    width: 37%;
+    left: 210px;
+  }
+
+  .collection {
+    margin: 50px 0 0 121px;
+    width: 60%;
+  }
+
+  .collection__bag {
+    font-size: 27px;
+    padding: 10px 0 0 30px;
+    margin-bottom: 6px;
+  }
+
+  .collection__autumn {
+    font-size: 12px;
+    padding: 0 0 0 30px;
+    margin-bottom: 8px;
+  }
+
+  .collection__included {
+    font-size: 10px;
+    padding: 0 40px 0 30px;
+  }
+
+  .price {
+    padding: 0 20px 0 10px;
+    margin-bottom: 8px;
+  }
+
+  .color__circle_circle-grey {
+    width: 24px;
+    height: 24px;
+    margin: 0 4px 4px 0;
+  }
+
+  .color__circle_circle-pink {
+    width: 31px;
+    height: 31px;
+    margin: 13px 5px 1px 0;
+  }
+
+  .color__circle_circle-blue {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px 4px 0;
+  }
+
+  .color__circle_circle-green {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+  }
+
+  .cost__price {
+    font-size: 27px;
+  }
+
+  .amount {
+    display: none;
+  }
+
+  .add__bask {
+    font-size: 10px;
+    padding: 18px 45px 15px 45px;
+    margin: 0 0 15px 30px;
+  }
+
+  .autumn__look {
+    width: 79%;
+    padding: 80px 0 0 60px;
+  }
+
+  .total-look {
+    width: 52%;
+    left: 140px;
+  }
+
+  .total-look__serene {
+    padding: 15px 3px 0 27px;
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+
+  .total-look__autumn {
+    font-size: 11px;
+    padding: 0 3px 0 27px;
+  }
+
+  .total-look__kit {
+    padding: 0 43px 0 27px;
+    font-size: 11px;
+    margin-bottom: 23px;
+  }
+
+  .quantity {
+    display: none;
+  }
+
+  .add__basket {
+    margin: 0 0 20px 27px;
+    font-size: 10px;
+    padding: 18px 45px 15px 45px;
+  }
+
+  .lane {
+    width: 18px;
+    margin: 0 0 5px 5px;
+  }
+
+  .lane:before {
+    margin-left: 11px;
+  }
+
+  .lane:after {
+    margin-left: 11px;
+  }
+
+  .footer {
+    display: none;
+  }
+/*
+  .developed__work {
+    left: 62.8%;
+  }
+
+  .web {
+    left: 84.8%;
+  }*/
 }
+
 
 @media (max-width: 555px) {
   .wrap-coll__new {
     font-size: 41px;
     top: 370px;
-    width: 100%;
+    width: 45%;
     padding: 0 0 0 150px;
   }
 }
 
-@media (max-width: 510px) {
+@media (max-width: 515px) {
   .wrap-coll__new {
     font-size: 41px;
     top: 330px;
-    width: 100%;
+    /*width: 45%;*/
     padding: 0 0 0 120px;
+  }
+
+  .serene {
+    background: linear-gradient(to right, #EBE3D8 128px, #000 128px, #000 171px, #EBE3D8 171px );
+  }
+
+ .wrapper {
+    position: relative;
+  }
+
+  .autumn__look {
+    width: 76%;
+    padding: 70px 0 0 60px;
+  }
+
+  .total-look {
+    width: 53%;
+    left: 110px;
+  }
+
+  .total-look__serene {
+    padding: 10px 3px 0 27px;
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  .total-look__autumn {
+    margin-bottom: 10px;
+  }
+
+  .total-look__kit {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .add__basket {
+    padding: 18px 35px 15px 35px;
+  }
+
+  .other {
+    position: absolute;
+    left: 180px;
+    top: auto;
+    bottom: 36px;
   }
 }
 
+
 @media (max-width: 470px) {
-  .home {
+  /*.home {
     position: inherit;
-  }
+  }*/
 
   .wrap-foto {
     display: none;
@@ -2745,7 +3079,7 @@ i {
   .wrap-img {
     width: 100%;
     display: block;
-    position: absolute;
+    /*position: absolute;*/
     padding: 0;
   }
 
@@ -2756,7 +3090,89 @@ i {
   }
 
   .vector {
-    margin-left: 99px;
+    padding: 0 0 0 99px;
+  }
+
+  .leather-bag {
+    min-height: 620px;
+  }
+
+  .wrapping__bag {
+    padding: 55px 0 0 107px;
+  }
+
+  .wrapping__case {
+    left: 170px;
+  }
+
+  .collection {
+    margin: 30px 0 0 81px;
+    width: 65%;
+  }
+
+  .collection__bag {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  .collection__autumn {
+    font-size: 11px;
+  }
+
+  .collection__included {
+    font-size: 10px;
+  }
+
+  .price {
+    padding: 0 20px 0 20px;
+    margin-bottom: 8px;
+  }
+
+  .cost__price {
+    font-size: 20px;
+  }
+
+  .color__circle_circle-grey {
+    margin: 0 1px 4px 0;
+  }
+
+  .color__circle_circle-pink {
+    margin: 13px 1px 1px 0;
+  }
+
+  .color__circle_circle-blue {
+    margin: 0 1px 4px 0;
+  }
+
+  .color__circle_circle-green {
+    margin-bottom: 4px;
+  }
+
+  .add__bask {
+    padding: 18px 35px 15px 35px;
+  }
+
+  .autumn__look {
+    width: 78%;
+    padding: 50px 0 0 50px;
+  }
+
+  .total-look {
+    width: 65%;
+    left: 80px;
+  } 
+
+  .total-look__serene {
+    font-size: 21px;
+  }
+
+  .total-look__kit {
+    padding: 0 3px 0 27px;
+  }
+
+  .other {
+    bottom: 26px;
+    padding: 0 45px 0 10px;
   }
 }
 
@@ -2774,20 +3190,25 @@ i {
     padding: 14px 0 18px 25px;
   }
 
+  .home {
+    position: inherit;
+  }
+
   .wrap-img {
     top: 15px;
+    position: absolute;
     z-index: -1;
   }
 
   .wrap-coll__new {
     font-size: 50px;
     line-height: 51px;
-    top: 364px;
-    padding: 0 52px 0 26px;
+    top: 435px;
+    padding: 0 0 0 26px;
   }
 
   .vector {
-    margin-left: 139px;
+    padding: 0 0 0 139px;
     bottom: 0;
   }
 
@@ -2802,10 +3223,12 @@ i {
 
   .wrapping__case {
     display: inline-block;
+    position: initial;
     width: 60%;
-    padding: 0 76px;
-    top: 544px;
+    padding: 26px 0 0 74px;
+    /*top: 626px;*/
     left: 0;
+    margin-bottom: 9px;
   }
 
   .collection {
@@ -2813,21 +3236,21 @@ i {
     width: 85%;
     top: 0;
     left: 0;
-    margin: 263px 27px 52px 29px;
+    margin: 0 0 52px 29px;
     position: inherit;
   }
 
   .collection__bag {
     font-size: 20px;
     line-height: 20px;
-    padding: 17px 99px 0 28px;
+    padding: 17px 0 0 28px;
     margin-bottom: 4px;
   }
 
   .collection__autumn {
     font-size: 10px;
     line-height: 10px;
-    padding: 0 139px 0 30px;
+    padding: 0 0 0 30px;
     margin-bottom: 13px;
   }
 
@@ -2839,7 +3262,7 @@ i {
   }
 
   .price {
-    margin-bottom: 25px;
+    margin-bottom: 26px;
     padding: 0 13px 0 9px;
   }
 
@@ -2878,8 +3301,9 @@ i {
   }
 
   .add__bask {
-    margin: 0 29px 25px 31px;
-    padding: 18px 47px 18px 46px;
+    font-size: 13px;
+    margin: 0 0 25px 31px;
+    padding: 18px 47px 17px 46px;
   }
 
   .other-goods {
@@ -2918,7 +3342,7 @@ i {
   .total-look__serene {
     font-size: 20px;
     line-height: 20px;
-    padding: 24px 40px 0 24px;
+    padding: 22px 40px 0 24px;
     margin-bottom: 7px;
   }
 
@@ -2933,7 +3357,7 @@ i {
     font-size: 9px;
     line-height: 13px;
     padding: 0 55px 0 23px;
-    margin-bottom: 21px;
+    margin-bottom: 22px;
   }
 
   .quantity {
@@ -2941,8 +3365,9 @@ i {
   }
 
   .add__basket {
+    font-size: 13px;
     padding: 17px 47px 17px 48px;
-    margin: 0 20px 28px 22px;
+    margin: 0 0 28px 22px;
   }
 
   .other {
